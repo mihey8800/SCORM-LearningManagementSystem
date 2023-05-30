@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="no" ?>
+<!-- created with "Manifest Maker for ADL SCORM 1.2 Version 2.0.0" for Dreamweaver,
+ on Tue Oct 05 16:43:42 GMT+0300 2004 -->
+
+<manifest identifier="Distance-SCorm-MANIFEST" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                        http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                        http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" >
+
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+<adlcp:location>imsmetadata.xml</adlcp:location>
+</metadata>
+ 
+<organizations default="TOC1">
+<organization identifier="TOC1">
+<title>Distance-SCORM</title >
+<item identifier="I_SCO0" identifierref="SCO0">
+<title>SCORM</title>
+</item>
+<item identifier="I_SCO1" identifierref="SCO1">
+<title>Tools and Standards for educational materials</title>
+</item>
+</organization>
+</organizations>
+
+<resources>
+<resource identifier="SCO0" type="webcontent" adlcp:scormtype="sco" href="scorm.html">
+<file href="scorm.html" />
+<dependency identifierref="ALLRESOURCES" />
+</resource>
+
+<resource identifier="SCO1" type="webcontent" adlcp:scormtype="sco" href="scrom2.html">
+<file href="scrom2.html" />
+<dependency identifierref="ALLRESOURCES" />
+</resource>
+
+<resource identifier="ALLRESOURCES" type="webcontent" adlcp:scormtype="asset">
+<file href="scorm.html" />
+<file href="scrom2.files/image001.gif" />
+<file href="scrom2.files/image002.gif" />
+<file href="scrom2.files/image003.gif" />
+<file href="scrom2.html" />
+</resource>
+
+</resources>
+
+</manifest>
